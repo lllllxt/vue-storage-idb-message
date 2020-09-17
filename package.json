@@ -1,0 +1,30 @@
+{
+  "name": "vue-storage-idb-message",
+  "version": "1.0.0",
+  "description": "vue插件 - storage-idb-message",
+  "main": "vue-storage-idb-message.js",
+  "scripts": {
+    "start": "npm run build",
+    "build": "rollup -c build/rollup.config.js -o vue-storage-idb-message.js"
+  },
+  "author": "lllllxt",
+  "license": "MIT",
+  "dependencies": {
+    "@lllllxt/event-bus": "^1.0.2",
+    "@lllllxt/storage-idb-message": "^1.0.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "rollup": "^2.26.11",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "vue": "^2.6.12"
+  },
+  "files": [
+    "src/",
+    "vue-storage-idb-message.js"
+  ]
+}
