@@ -1,5 +1,5 @@
 {
-  "name": "vue-storage-idb-message",
+  "name": "@lllllxt/vue-storage-idb-message",
   "version": "1.0.0",
   "description": "vue插件 - storage-idb-message",
   "main": "vue-storage-idb-message.js",
